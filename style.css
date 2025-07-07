@@ -1,0 +1,92 @@
+/* ====== Global Styles ====== */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  font-size: 1rem;
+  color: #666;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.job ul {
+  padding-left: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.sosial li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+footer {
+  background-color: #f5f5f5;
+  color: #666;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
